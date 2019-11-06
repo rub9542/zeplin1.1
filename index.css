@@ -1,1 +1,452 @@
-<
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+.top{
+    height:75px;
+    display:flex;
+    width:100%;
+    /* margin-top:33px;
+    margin-right:45px;
+    margin-left:45px; */
+    flex-direction: row;
+    /* border:1px solid red; */
+}
+.top-left{
+    display:flex;
+    width:50%;
+    height:100%;
+    justify-content: flex-start;
+    /* border: 1px solid blue; */
+}
+.top-right{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content:flex-end;
+    /* border:1px solid yellow; */
+    align-items: center;
+    
+
+}
+.logo{
+    width:75px;
+    height:75px;
+    object-fit: fill;
+    /* padding-left: 0.5%; */
+    /* border: solid 2px #ffffff; */
+    background-image: url('logo.png');
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('/home/abdulrub/Downloads/1232.jpg');    
+    background-size: cover;
+    margin-bottom: 45px;
+    margin-right:45px;
+    margin-left:45px;
+    margin-top:33px;
+}
+
+#headline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* text-align: center; */
+    /* align-items: center; */
+    width:533px;
+    height: 19px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    /* margin-left: */
+
+
+
+}
+.set{
+    width : 100px;
+    /* border:1px solid #ffffff; */
+    margin-top: 151px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    /* padding-left:296px; */
+}
+.container1{
+    display:flex;
+    width:1170px;
+    /* height: 100px; */
+    /* margin-left:375px; */
+    /* margin-right:375px; */
+    /* padding-right:375px;    */
+    /* border:1px solid yellow; */
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+}
+.container2{
+    display:flex;
+    width:1170px;
+    /* border:1px solid pink; */
+    /* flex-direction: column; */
+    
+
+}
+.container3{ 
+    display:flex;
+    width:1170px;
+    /* height: 100px; */
+    /* margin-left:375px; */
+    /* margin-right:375px; */
+    /* padding-right:375px;    */
+    /* border:1px solid yellow; */
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    /* display: flex; */
+    letter-spacing:-2.77px;
+    height:220px;
+    width:587px;
+    font-size:120px;
+    font-weight: 800;
+    color:#ffffff;
+    /* padding-left: 1350px; */
+    /* justify-content: center; */
+    line-height: 110px;
+    
+    /* padding-left: 375px; */
+    /* opacity: 0.3; */
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    padding-right:420px;
+    flex-direction: column;
+    padding-left: 420px;
+}
+
+
+
+
+#about-us{
+    /* padding: 20px; */
+    color: #ffffff;
+}
+#videos{
+    /* padding: 20px; */
+    color: #ffffff;
+}
+#countries{
+    /* padding: 20px; */
+    color: #ffffff;
+}
+#contact{
+    /* padding: 20px; */
+    color:#ffffff;
+}
+.symbol{
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    /* border:1px solid red; */
+    /* padding-top :100px ; */
+}
+.symbol-name{
+    /* display: flex; */
+    /* letter-spacing: 1.36px; */
+    text-align: center;
+    /* padding-top: 100px; */
+    /* padding-left: 30px; */
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    width:123px;
+    height:56px;
+    font-style:normal;
+    line-height:1.4;
+    /* padding-bottom: 10px; */
+}
+.matter{
+    width:890px;
+    height:68px;
+    font-weight:400px;
+    font-size: 22px;
+    line-height:1.55;
+    letter-spacing:normal;
+    color:#d0d0d0;
+}
+.box1{
+    display:flex;
+    background-image: url('/home/abdulrub/tarzan/zeplin/zeplin/123.jpg'); 
+    width: 368px;
+    background-size:cover;
+    height:210px;
+    border:1px solid white;
+    flex-direction: row;
+    /* justify-content: flex-end;  */
+    align-items:center;
+}
+/home/abdulrub/Downloads/124.jpg
+.box1-symbol{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 122px;
+    flex: 2;
+    align-items: flex-end;
+    /* border:2px solid #ffffff; */
+    padding-left: 29px;
+    padding-bottom:27px;
+
+
+}
+
+.box1-symbol img {
+    width: 75px;
+    height: 75px;
+
+}
+
+.box1-matter{
+    /* display:flex; */
+    /* width:161px; */
+    /* height: 44px; */
+    /* font-size: 36px; */
+    /* font-weight: 700; */
+    /* color:#ffffff; */
+    padding-bottom:44px;
+    flex: 8;
+    margin-top:122px;
+    padding-left:49px;
+    flex-direction: column;
+}
+.box1-caption1{
+    width:161px;
+    height: 44px;
+    font-size: 36px;
+    font-weight: 700;
+    color:#ffffff;
+}
+.box1-caption2{
+    width:78px;
+    height: 22px;
+    font-size:18px;
+    font-weight: 300;
+    color:#ffffff;
+}
+
+
+.box2{
+    display:flex;
+    background-image: url('/home/abdulrub/Downloads/124.jpg'); 
+    background-size: cover;
+    width: 368px;
+    height:210px;
+    border:1px solid white;
+    flex-direction: row;
+    /* justify-content: flex-end;  */
+    align-items:center;
+}
+
+.box2-symbol{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 122px;
+    flex: 2;
+    align-items: flex-end;
+    /* border:2px solid #ffffff; */
+    padding-left: 29px;
+    padding-bottom:27px;
+
+
+}
+
+.box2-symbol img {
+    width: 75px;
+    height: 75px;
+
+}
+
+.box2-matter{
+    /* display:flex; */
+    /* width:161px; */
+    /* height: 44px; */
+    /* font-size: 36px; */
+    /* font-weight: 700; */
+    /* color:#ffffff; */
+    padding-bottom:44px;
+    flex: 8;
+    margin-top:122px;
+    padding-left:49px;
+    flex-direction: column;
+}
+.box2-caption1{
+    width:161px;
+    height: 44px;
+    font-size: 36px;
+    font-weight: 700;
+    color:#ffffff;
+}
+.box2-caption2{
+    width:78px;
+    height: 22px;
+    font-size:18px;
+    font-weight: 300;
+    color:#ffffff;
+}
+
+.box3{
+    display:flex;
+    background-image: url('/home/abdulrub/Downloads/12.jpg'); 
+    background-size: cover;
+
+    width: 368px;
+    height:210px;
+    border:1px solid white;
+    flex-direction: row;
+    /* justify-content: flex-end;  */
+    align-items:center;
+}
+
+.box3-symbol{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 122px;
+    flex: 2;
+    align-items: flex-end;
+    /* border:2px solid #ffffff; */
+    padding-left: 29px;
+    padding-bottom:27px;
+
+
+}
+
+.box3-symbol img {
+    width: 75px;
+    height: 75px;
+
+}
+
+.box3-matter{
+    /* display:flex; */
+    /* width:161px; */
+    /* height: 44px; */
+    /* font-size: 36px; */
+    /* font-weight: 700; */
+    /* color:#ffffff; */
+    padding-bottom:44px;
+    flex: 8;
+    margin-top:122px;
+    padding-left:49px;
+    flex-direction: column;
+}
+.box3-caption1{
+    width:161px;
+    height: 44px;
+    font-size: 36px;
+    font-weight: 700;
+    color:#ffffff;
+}
+.box3-caption2{
+    width:78px;
+    height: 22px;
+    font-size:18px;
+    font-weight: 300;
+    color:#ffffff;
+}
+.container4{
+    width:1170px;
+    height:74px;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+
+    margin-top:137px;
+    margin-bottom: 45px;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+.countries{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    /* justify-content:ween; */
+    /* text-align: center; */
+    /* align-items: center; */
+    /* width:533px; */
+    height: 18px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    margin-top:28px;
+    flex: 8;
+}
+/* #COUNTRIES1{
+    width:797px;
+    height:18px;
+    font-size:14px;
+    font-weight: 700px;
+    letter-spacing: 1.31px;
+    color:#ffffff;
+
+}
+#INDIA{
+    width: 797px;
+    height:18px;
+    font-size:14px;
+    font-weight: 400;
+    letter-spacing:1.23px;
+    color:#aaaaaa;
+}
+#SWITZERLAND{
+    width: 797px;
+    height:18px;
+    font-size:14px;
+    font-weight: 400;
+    letter-spacing:1.23px;
+    color:#aaaaaa;
+}
+#SOUTH-AFRICA{
+    width: 797px;
+    height:18px;
+    font-size:14px;
+    font-weight: 400;
+    letter-spacing:1.23px;
+    color:#aaaaaa;
+}
+#AUSTRALIA{
+    width: 797px;
+    height:18px;
+    font-size:14px;
+    font-weight: 400;
+    letter-spacing:1.23px;
+    color:#aaaaaa;
+}
+#INDONESIA{
+    width: 797px;
+    height:18px;
+    font-size:14px;
+    font-weight: 400;
+    letter-spacing:1.23px;
+    color:#aaaaaa;
+} */
+.rights{
+    border-left:1px solid red;
+    color:white;
+    width:211px;
+    height:18px;
+    font-size:14px;
+    font-weight:400;
+    color:#aaaaaa;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    padding-top: 28px;
+    padding-left: 38px; 
+}

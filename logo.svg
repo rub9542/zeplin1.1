@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75">
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="37.5" cy="37.5" r="37.5" stroke="#FFF" stroke-width="2"/>
+        <text fill="#FFF" font-family="Montserrat-Bold, Montserrat" font-size="22" font-weight="bold">
+            <tspan x="19.803" y="38">PL</tspan> <tspan x="19" y="59">AY</tspan>
+        </text>
+    </g>
+</svg>
