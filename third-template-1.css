@@ -247,87 +247,266 @@ body{
     height: 1777px;
     width:100%;
     border:1px solid brown;
-    flex-direction: row;
+    flex-direction: column;
     /* justify-content: center; */
     /* padding-left: 135px; */
 
 }
-.bottom1{
-    display:flex;
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    width:50%;
-    height:100%;
-    border:1px solid yellow;
-
-    /* margin-left: 135px; */
+.bottom0{
+    width:100%;
 }
-
+bottom1{
+    width:100%;
+    border:1px solid pink;
+}
 .spain{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    /* justify-content: center; */
+    width:100%;
+    height:100px;
+    /* font-size:24px;
+    font-weight:400;
+    line-height:normal;
+    letter-spacing: normal;
+    padding-left:135px;
+    padding-top:60px; */
+}
+.content0{
+    width:50%;
+    height: 100px;
+    border: 1px solid red;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding-top: 60px;
+    padding-left:135px;
+    border: 1px solid brown;
+
+    width:370px;
+    height:32px;
+}
+.spain-pics{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
     width:340px;
     height:32px;
     font-size:24px;
     font-weight:400;
     line-height:normal;
     letter-spacing: normal;
-    padding-left:135px;
-    padding-top:60px;
+
 }
-.content{
+.h1{
+    font-size:24px;
+    letter-spacing:normal;
+    color:#949fb7;
+
+}
+.h2{
+margin-left:20px;
+font-size:24px;
+letter-spacing:normal;
+color:#2b313d;
+}
+#triangle{
+    padding-left: 10px;
+    height:6px;
+    transform:rotateX(180deg);
+}
+.content00{
+    width:50%;
+    height: 100px;
+    border:1px solid blue;
+}
+.content1{
+    width:78x;
+    height:16px;
+    border:1px solid black;
+    margin-right: 135px;
+    margin-top: 60px;
+    margin-left:492px;
+
+}
+.h3
+{
+    font-size: 12px;
+    text-align: right;
+    font-weight: 400;
+}
+.bottom1{
+    width:100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-.h1{
-    color:#949fb7;
-}
-.h2{
-    color:#2b313d;
-}
-#triangle{
-    /* box-sizing: border-box;
-    width:74px;
-    height:74px;
-    border-style:solid;
-    border-width:0 37px 0px 0;
-    border-color:transparent #202020 transparent transparent; */
-    transform: rotate(180deg);
-    width:8px;
-    height:6px; 
-    /* /* width:8px;
-    height: 6px;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 100px solid  #c1c8d7; */
-}
-.triangle{
-    padding-left: 10px;
-}
 
-.bottom2{
-    width:50%;
-    height:100%;
-    border:1px solid red;
+
 }
 .pic1{
     /* flex-direction: row; */
     display: flex;
-    flex:1;
-}
-.spain-pics{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    /* flex:1; */
+    /* display: flex; */
+    flex-direction: column;
+    width: 270px;
+    border:1px solid green;
+    /* height: 190px; */
+    /* background-image: url(/home/abdulrub/tarzan/zeplin/zeplin/bottom1.png); */
 
 }
-.pics11{
+.pic2{
     display: flex;
+    /* flex:1; */
+    /* height:190px; */
     flex-direction: column;
-    justify-content: center;
+    /* width:270px; */
+    border:1px solid red;
+    padding-left:30px;
+
+    
+}
+.pic3{
+    display:flex;
+    /* flex:1; */
+    /* height:190px; */
+    flex-direction: column;
+    border:1px solid blue;
+    padding-left:30px; 
+
+}
+.pic4{
+    display:flex;
+    /* flex:1; */
+    /* height:190px; */
+    flex-direction: column;
+    border:1px solid red;
+    padding-left:30px;
+}
+.spain-pic0{
     width:270px;
     height:190px;
     object-fit:contain;
+}
+.spain-pic1{
+    width:270px;
+    height:190px;
+    object-fit:contain;
+}
+.spain-pic2{
+    width:270px;
+    height:190px;
+    object-fit:contain;
+}
+.spain-pic3{
+    width:270px;
+    height:190px;
+    object-fit:contain;
+}
+.pic1-1{
+    display: flex;
+    /* flex:1; */
+
+    width: 100%;
+    height: 190px;
+    background-image: url('/home/abdulrub/tarzan/zeplin/zeplin/bottom1.png');
+    background-size: cover;
+}
+.pic1-2{
+    display: flex;
+    justify-content: space-between;
+    height: 19px;
+    font-size: 14px;
+    letter-spacing:normal;
+    font-weight:400;
+    color:#596172;
+
+}
+.cost-fire{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fire{
+    width:19px;
+    height: 23px;
+    /* object-fit:contain; */
+
+}
+.text{
+    width:240px;
+    height:42px;
+    font-size: 16px;
+    font-weight:400;
+    line-height:normal;
+    letter-spacing: normal;
+    color:#2b313d;
+}
+.pic2-1{
+    display: flex;
+    width:270px;
+    height:100%;
+    background-image: url('/home/abdulrub/tarzan/zeplin/zeplin/spainpics2.png');
+    background-size:cover;
+}
+.pic2-2{
+    display: flex;
+    justify-content: space-between;
+    height: 19px;
+    font-size: 14px;
+    letter-spacing:normal;
+    font-weight:400;
+    color:#596172;
+
+    
+}
+.pic3-1{
+    display:flex;
+    width:270px;
+    height:100%;
+    background-image:url('/home/abdulrub/tarzan/zeplin/zeplin/image@2x.png');
+    background-size:cover;
+}
+.pic3-2{
+    display: flex;
+    justify-content: space-between;
+    height: 19px;
+    font-size: 14px;
+    letter-spacing:normal;
+    font-weight:400;
+    color:#596172;
+}
+.pic4-1{
+    display: flex;
+    width:270px;
+    height:100%;
+    background-image: url('/home/abdulrub/tarzan/zeplin/zeplin/spain4.png');
+    background-size: cover;
+}
+.pic4-2{
+    display: flex;
+    justify-content: space-between;
+    height: 19px;
+    font-size: 14px;
+    letter-spacing:normal;
+    font-weight:400;
+    color:#596172;
+
+}
+.pic1-2{
+    padding-top: 18px;
+}
+.pic2-2{
+    padding-top: 18px;
+}
+.pic3-2{
+    padding-top: 18px;
+}
+.pic4-2{
+    padding-top: 18px;
+}
+.text{
+    padding-top: 10px;
 }
