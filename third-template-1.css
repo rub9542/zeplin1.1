@@ -272,10 +272,49 @@ bottom1{
     padding-left:135px;
     padding-top:60px; */
 }
+.denmark{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    width:100%;
+    height:100px;
+    /* font-size:24px;
+    font-weight:400;
+    line-height:normal;
+    letter-spacing: normal;
+    padding-left:135px;
+    padding-top:60px; */
+}
+.serbia{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    width:100%;
+    height:100px;
+    /* font-size:24px;
+    font-weight:400;
+    line-height:normal;
+    letter-spacing: normal;
+    padding-left:135px;
+    padding-top:60px; */
+
+}
 .content0{
     width:50%;
     height: 100px;
     border: 1px solid red;
+}
+.Denmark-content0{
+    width:50%;
+    height: 100px;
+    border: 1px solid red;
+
+}
+.serbia-content0{
+    width:50%;
+    height: 100px;
+    border: 1px solid red;
+
 }
 .content{
     display: flex;
@@ -288,19 +327,45 @@ bottom1{
     width:370px;
     height:32px;
 }
-.spain-pics{
+.denmark-content{
     display: flex;
-    flex-direction:row;
-    justify-content: space-between;
-    width:340px;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding-top: 60px;
+    padding-left:135px;
+    border: 1px solid brown;
+
+    width:370px;
     height:32px;
-    font-size:24px;
-    font-weight:400;
-    line-height:normal;
-    letter-spacing: normal;
 
 }
+.serbia-content{
+
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding-top: 60px;
+    padding-left:135px;
+    border: 1px solid brown;
+
+    width:370px;
+    height:32px;
+
+}
+
 .h1{
+    font-size:24px;
+    letter-spacing:normal;
+    color:#949fb7;
+
+}
+.dh1{
+    font-size:24px;
+    letter-spacing:normal;
+    color:#949fb7;
+
+}
+.sh1{
     font-size:24px;
     letter-spacing:normal;
     color:#949fb7;
@@ -312,6 +377,20 @@ font-size:24px;
 letter-spacing:normal;
 color:#2b313d;
 }
+.dh2{
+    margin-left:20px;
+    font-size:24px;
+    letter-spacing:normal;
+    color:#2b313d;
+    
+}
+.sh2{
+    margin-left:20px;
+    font-size:24px;
+    letter-spacing:normal;
+    color:#2b313d;
+    
+}
 #triangle{
     padding-left: 10px;
     height:6px;
@@ -322,7 +401,38 @@ color:#2b313d;
     height: 100px;
     border:1px solid blue;
 }
+.denmark-content00{
+    width:50%;
+    height: 100px;
+    border:1px solid blue;
+
+}
+.serbia-content00{
+    width:50%;
+    height: 100px;
+    border:1px solid blue;
+
+}
+
 .content1{
+    width:78x;
+    height:16px;
+    border:1px solid black;
+    margin-right: 135px;
+    margin-top: 60px;
+    margin-left:492px;
+
+}
+.denmark-content1{
+    width:78x;
+    height:16px;
+    border:1px solid black;
+    margin-right: 135px;
+    margin-top: 60px;
+    margin-left:492px;
+
+}
+.serbia-content1{
     width:78x;
     height:16px;
     border:1px solid black;
@@ -336,6 +446,18 @@ color:#2b313d;
     font-size: 12px;
     text-align: right;
     font-weight: 400;
+}
+.dh3{
+    font-size: 12px;
+    text-align: right;
+    font-weight: 400;
+
+}
+.sh3{
+    font-size: 12px;
+    text-align: right;
+    font-weight: 400;
+
 }
 .bottom1{
     width:100%;
@@ -414,7 +536,26 @@ color:#2b313d;
     background-image: url('/home/abdulrub/tarzan/zeplin/zeplin/bottom1.png');
     background-size: cover;
 }
+.a-pic1-1{
+    display: flex;
+    /* flex:1; */
+
+    width: 100%;
+    height: 190px;
+    background-image: url('denmark3.png');
+    background-size: cover;
+}
 .pic1-2{
+    display: flex;
+    justify-content: space-between;
+    height: 19px;
+    font-size: 14px;
+    letter-spacing:normal;
+    font-weight:400;
+    color:#596172;
+
+}
+.a-pic1-2{
     display: flex;
     justify-content: space-between;
     height: 19px;
@@ -451,7 +592,26 @@ color:#2b313d;
     background-image: url('/home/abdulrub/tarzan/zeplin/zeplin/spainpics2.png');
     background-size:cover;
 }
+.a-pic2-1{
+    display: flex;
+    width:270px;
+    height:100%;
+    background-image: url('denmark1.png');
+    background-size:cover;
+
+}
 .pic2-2{
+    display: flex;
+    justify-content: space-between;
+    height: 19px;
+    font-size: 14px;
+    letter-spacing:normal;
+    font-weight:400;
+    color:#596172;
+
+    
+}
+.a-pic2-2{
     display: flex;
     justify-content: space-between;
     height: 19px;
@@ -469,7 +629,23 @@ color:#2b313d;
     background-image:url('/home/abdulrub/tarzan/zeplin/zeplin/image@2x.png');
     background-size:cover;
 }
+.a-pic3-1{
+    display:flex;
+    width:270px;
+    height:100%;
+    background-image:url('denmark2.png');
+    background-size:cover;
+}
 .pic3-2{
+    display: flex;
+    justify-content: space-between;
+    height: 19px;
+    font-size: 14px;
+    letter-spacing:normal;
+    font-weight:400;
+    color:#596172;
+}
+.a-pic3-2{
     display: flex;
     justify-content: space-between;
     height: 19px;
@@ -485,7 +661,25 @@ color:#2b313d;
     background-image: url('/home/abdulrub/tarzan/zeplin/zeplin/spain4.png');
     background-size: cover;
 }
+.a-pic4-1{
+    display: flex;
+    width:270px;
+    height:100%;
+    background-image: url('denmark4.png');
+    background-size: cover;
+}
+
 .pic4-2{
+    display: flex;
+    justify-content: space-between;
+    height: 19px;
+    font-size: 14px;
+    letter-spacing:normal;
+    font-weight:400;
+    color:#596172;
+
+}
+.a-pic4-2{
     display: flex;
     justify-content: space-between;
     height: 19px;
